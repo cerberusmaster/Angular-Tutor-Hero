@@ -352,7 +352,11 @@
 
   <!-- Angular Tour - Heroes -->
   <h2>Angular Tour - Heroes</h2>
-  <app-heroes></app-heroes>
+  <nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
   <app-messages></app-messages>
 
   <!-- Resources -->
@@ -485,5 +489,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<router-outlet></router-outlet>
